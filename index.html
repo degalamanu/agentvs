@@ -1,0 +1,34 @@
+<html><head>
+    </head>
+    <body>
+      HELLO VA(VISUAL AGENTS)      
+      <script> 
+        function bigFun(){
+          var a= document.getElementById("passwords").value;
+                    if(a==""){
+        document.getElementById("messages").innerHTML="**Please Fill The Password Agent**";
+            return false;
+          }
+           if(a=="fasthak"){
+        open("http://nexchat.unaux.com")
+          }
+else{
+  document.getElementById("messages").innerHTML="**wrong password**";
+            return false;
+}
+        }
+        
+        
+        
+      </script>   
+      
+      
+            <form onsubmit="return bigFun();">
+       password <input type="password" id="passwords" value=""><br> <br>
+        <span id="messages"></span>
+      
+            <span id="messagess"></span><br> <br>
+        <input type="submit" value="Submit">
+        </form>
+      
+      </body></html>
